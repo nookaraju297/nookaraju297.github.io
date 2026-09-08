@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <title>Login page</title>
+    <style>
+        h1 {
+
+            color: rgb(17, 16, 16);
+            text-align: center;
+
+
+
+
+            font-size: x-large;
+
+            font-style: italic;
+        }
+
+        body {
+            margin-top: 200px;
+            margin-bottom: 300px;
+            background-image: url("background.jpg.jpeg");
+
+            background-size: cover
+        }
+
+        .btn {
+            background-color: rgb(17, 16, 16);
+            color: white;
+            padding: 10px 20px;
+
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button {
+            background-color: orange;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        div {
+            background-color: white;
+            width: 300px;
+            height: 300px;
+            margin: auto;
+            border-radius: 40px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <center>
+            <h1>Login</h1>
+        </center>
+
+        <form>
+            <center>
+                <label>
+                    <input type="text" name="email" placeholder="Email" required>
+                </label>
+                <br>
+                <br>
+                <label>
+                    <input type="password" name="password" placeholder="Password" required>
+                </label>
+            </center>
+            <br>
+            <center>
+                <input class="btn" type="submit" value="Login">
+            </center>
+        </form>
+        <br>
+        <center>
+            <p>
+                Don't have an account
+            </p>
+            <a href="signin.html">Sign up here</a>
+        </center>
+    </div>
+</body>
+
+</html>
